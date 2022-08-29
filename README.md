@@ -1,7 +1,6 @@
 # A. Descriptive Questions:
 ## Can we nest the Scaffold widget? Why or Why not?
-#### Yes Flutter allow this,But we are nested because
-#### The Scaffold was designed to be the single top level container for a MaterialApp and it’s typically not necessary to nest scaffolds. For example in a tabbed UI, where the bottomNavigationBar is a TabBar and the body is a TabBarView, you might be tempted to make each tab bar view a scaffold with a differently titled AppBar. It would be better to add a listener to the TabController that updates the AppBar
+#### Yes Flutter allow this,But we are nested because The Scaffold was designed to be the single top level container for a MaterialApp and it’s typically not necessary to nest scaffolds. For example in a tabbed UI, where the bottomNavigationBar is a TabBar and the body is a TabBarView, you might be tempted to make each tab bar view a scaffold with a differently titled AppBar. It would be better to add a listener to the TabController that updates the AppBar
 ## What are the different ways we can create a custom widget ?
 #### 1. Create dart class file that extend stateless or satefull.
 #### 2. Create function that have a return type Widget.
