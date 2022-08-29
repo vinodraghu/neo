@@ -13,7 +13,7 @@
 # B. Coding Questions:
 ### 1. Refactor the code below so that the children will wrap to the next line when the display width is small for them for them to fit.
 <img width="545" alt="image3" src="https://user-images.githubusercontent.com/4019977/187225239-1a96ee9b-9f60-4c4e-b787-2f432e7efbcd.png">
-#### Just replace row to Wrap
+Just replace row to Wrap
 
 ### 2.Identify the problem in the following code block and correct it.
 #### It blocks your app because counting to ten billion is a computationally expensive task, even for a computer.Dart code runs inside its own area of memory called an isolate — also known as memory thread. Each isolate has its own memory heap, which ensures that no isolate can access any other isolate's state.
