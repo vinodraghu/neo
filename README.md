@@ -20,5 +20,4 @@
 #### It blocks your app because counting to ten billion is a computationally expensive task, even for a computer.
 #### Dart code runs inside its own area of memory called an isolate — also known as memory thread. Each isolate has its own memory heap, which ensures that #### no isolate can access any other isolate's state.
  
-### 3. In the below code, list1 declared withvar, list2 with final and list3 with const.
-### What is the difference between these lists? Will the last two lines compile 
+### 3. In the below code, list1 declared withvar, list2 with final and list3 with const.What is the difference between these lists? Will the last two lines compile 
